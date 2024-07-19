@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import HOCImp from './HOCImp';
 import reportWebVitals from './reportWebVitals';
+import { TimeClock } from './Concepts/TimeClock/TimeClock';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <HOCImp /> */}
+    <TimeClock />
   </React.StrictMode>
 );
 

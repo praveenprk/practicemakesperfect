@@ -1,8 +1,10 @@
 import './App.css';
 import Button from './Concepts/HOC/Button';
 import withHoc from './Concepts/HOC/withHOC';
+
 const Enhanced = withHoc(Button);
-function App() {
+
+function HOCImp() {
   return (
     <div className="App">
       <Button label='This is a button'/>
@@ -12,4 +14,4 @@ function App() {
   );
 }
 
-export default App;
+export default HOCImp;
